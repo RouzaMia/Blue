@@ -1,0 +1,344 @@
+body{ 
+	margin:0;
+	padding: 0;
+}
+/*header start*/
+header{
+background-color: #121B2A;
+padding: 10px 0;
+}
+.wrapper{
+	width:80%;
+	margin:0 auto;
+	overflow: hidden; 
+	/*border:1px solid white;*/
+}
+.logo{
+	
+	width: 18%;
+	float: left;
+
+	} 
+.logo img{
+	    width: 100%
+}
+
+
+.menu{
+	
+	width: 70%;
+	float: right;
+	margin-top: 40px;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{ 
+	list-style: none;
+    float : left;
+
+}
+
+.menu ul li a
+{  
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 15px;
+    display: block;
+    color:white;
+    transition: 2s;
+}
+
+.menu ul li:last-child a{
+	padding-right:0;
+}
+.menu ul li a:hover
+{
+	color: #0271B2;
+}
+/*header end*/
+
+/*banner Start*/
+
+
+.banner {
+background-image: url(../images/gg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+/*min-height: 500px;*/
+ 
+}
+
+.banner-content { 
+	margin-top:200px;
+	   margin-bottom:50px;
+	   width: 45%;
+
+}
+.banner-content h1{
+	color:white;
+	font-size: 28px;
+	font-family: sans-serif;
+	    margin: 0;
+	
+}
+.banner-content h2{
+	font-family: sans-serif;
+	font-size: 37px;
+	color: #0074BA;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.banner-content p{
+	color:white;
+	font-size: 18px;
+   line-height: 1.5;
+} 
+.banner-content button{color:#707070;
+font-size: 20px;
+margin-top: 10px; 
+padding:10px 15px 8px 15px;}
+.banner-content button span{
+	background-color: blue;
+    padding: 3.5px 10px 4px 10px;
+	border-radius: 80%;
+	color:white;
+	margin-left: 10px;
+}
+
+/*Banner End*/
+
+/*Service start*/
+.service {
+	background-color:#121B2C;
+	padding: 50px 0;
+}
+
+
+.single { 
+	width: 29%;
+	padding:10px 20px; 
+	float: left;
+	border-right: 0.25px solid white;
+	    margin-left: 6px;
+}
+.single:last-child{
+	border-right: 0;
+}
+.title { 
+overflow: hidden;
+}
+
+.icon {
+	width:25%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+
+.icon-content {
+
+ width: 70%;
+float: left;
+margin-top:10px;
+}
+.icon-content h1{
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+
+.icon-content h2{
+	color:#0078BF;
+text-transform: capitalize;
+	font-family: sans-serif;
+		    margin: 0px;
+
+}
+
+
+
+.content{}
+.content p {color:white;
+font-family: sans-serif;
+line-height: 1.7;
+font-size: 14px;
+}
+
+
+/*Service end*/
+/*information start*/
+
+
+
+
+.Information {
+background-color: #040811;
+padding: 40px 0;
+
+
+}
+.info_box{
+		width: 28%;
+	padding:20px 20px; 
+	float: left;
+	overflow: hidden;
+	
+}
+
+
+.whitetext   {
+	    color: white;
+    font-family: sans-serif;
+    line-height: 1.7;
+    font-size: 23px;
+    letter-spacing: 2px;
+	
+
+}
+.bluetext
+ {
+    color: #0078BD;
+    font-family: sans-serif;
+    line-height: 1.7;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+
+}
+.wt{
+	color:white;
+	font-family:Open Sans;  
+	line-height: 1.7;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+	
+	.wc{
+		 color: white;
+    font-family: sans-serif;
+    line-height: 1.7;
+    font-size: 23px;
+    letter-spacing: 2px;
+		
+	}
+
+	.bc{
+		 color: #0078BD;
+    font-family: sans-serif;
+    line-height: 1.7;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    }
+    .pc{
+    	color:white;
+    	 font-family: sans-serif;
+    	 font-size: 12px;
+	letter-spacing: 1px;
+    }
+
+		
+	}
+    
+.info_content p{
+	color: white;
+}
+
+
+.applications {
+overflow: hidden;}
+
+.apptitle {
+ width: 70%;
+float: left;
+margin-top:10px;
+}
+
+.appicon {width:30%;
+	float: left;
+    margin-top: -27px;
+}
+
+.app_content {
+ width: 70%;
+    float: left;
+    margin-top: -237px;
+    
+    padding-top: -46px;
+    padding: 0 130px;
+    line-height: 0.5;
+}
+.app_content p{color:white;
+font-size: 20px;
+font-family: sans-serif;
+
+  }
+.app_content h1{color:#0078BD;
+	font-family: sans-serif;
+	}
+
+
+.app_content img{ width:50;
+	padding-left: 0;
+	  margin: 0px 0px 0px -13px;
+
+}
+
+/*information end*/
+/*
+footer start*/
+.footer { 
+	    background-color: #121B2A;
+}
+
+
+
+.wrapper2{
+	
+	width:100%;
+	margin:0 auto; 
+	overflow: hidden;
+}
+.logofoot{
+   /*width: 13%;
+   float:left;
+   margin-top: 8px;*/
+}
+.logofoot a img{ 
+	    width: 100%;
+	} 
+.menubar {
+	width: 65%;
+    float:left;
+    
+}
+.menubar ul{
+	float: left;
+	padding left: 58px;
+}
+.menubar ul li{
+	list-style: none;
+	float: left;
+}
+.menubar ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	padding: 0 20px;
+	color:white
+	}
+.menubar ul li:last-child a{
+	padding-right: 0;
+}
+.copyright{
+
+}
+.copyright p{
+	
+   padding: 34px 76px;
+    color: white;
+}
